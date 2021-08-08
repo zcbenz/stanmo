@@ -2,9 +2,9 @@
   "name": "stanmo",
   "version": "1.0.0",
   "description": "Generate a standalone bundle for Node.js module",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "bin": {
-    "stanmo": "src/bin.js"
+    "stanmo": "lib/bin.js"
   },
   "repository": {
     "type": "git",
@@ -12,10 +12,9 @@
   },
   "license": "public domain",
   "dependencies": {
-    "@m59/use-tmp-dir": "0.1.3",
-    "browserify": "16.5.0",
-    "execa": "4.0.0",
-    "terser": "4.6.6",
-    "undefined": "^0.1.0"
+    "@m59/use-tmp-dir": "2.0.0",
+    "browserify": "17.0.0",
+    "execa": "5.1.1",
+    "terser": "5.7.1"
   }
 }
